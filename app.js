@@ -12,3 +12,15 @@ for (let i = 0; i < memoryContainer.length; i++) {
 }
 
 console.log(memoryContainer.toString("hex"));
+
+// -------
+
+// const buff = Buffer.from([0x48, 0x69, 0x21]);
+// console.log(buff.toString("utf-8"));
+//  ------
+
+const buff = Buffer.from("486921", "hex");
+console.log(buff);
+console.log(buff.toString("utf-8"));
+
+console.log(Buffer);

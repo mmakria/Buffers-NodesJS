@@ -1,7 +1,7 @@
-// 0100 1000 0110 1001 0010 0001
+// 0100 1000 0110 1001 0010 0001 -----> results "Hi!"
 //Creer un BUffer avec ce binaire et apres decoder le resltat
 
-const { buffer } = require("node:buffer");
+const { Buffer } = require("node:buffer");
 
 const memoryContainer = Buffer.alloc(3);
 
